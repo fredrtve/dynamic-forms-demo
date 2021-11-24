@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 20px;
+    padding-top: 20px; 
+}
+
+pre {
+    background-color: ghostwhite;
+    border: 1px solid silver;
+    padding: 10px 20px;
+    margin: 20px; 
+    max-width: 530px;
+    .json-key {
+        color: brown;
+    }
+    .json-value {
+        color: navy;
+    }
+    .json-string {
+        color: olive;
+    }
+ 
+}
